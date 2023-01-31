@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+:root {
+    --largura-coluna: 160px;
+    --cor-index: #F2B33D;
+    --cor-header: #05DBF2;
+    --cor-fonte: #266F8C;
+    --footer: #04ADBF;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor-index);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--cor-header);
+    color: white;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.699);
+    position: relative;
+}
+
+#icon_header {
+    max-width: 7%;
+    text-align: center;  
+    justify-content: center;
+    padding-right: 10px;
+}
+
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#text_header {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.582);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+main {
+    background-color: white;
+    max-width: 900px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.397);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+section {
+    width: 800px;
+    max-width: 800px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h2 {
+    padding: 3px 8px;
+    background-color: var(--cor-header);
+    color: white;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.699);;
+}
+
+p {
+    color: var(--cor-fonte);
+    padding: 5px 4px 0px 4px;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+#download_app {
+    background-color: var(--footer);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    width: 200px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#download_app:hover {
+    opacity: 0.85
+}
+
+#apk {
+    max-width: 70%;
+    margin: 0px auto;
+    display: block;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.print {
+    max-width: 50%;
+    margin: 0px auto;
+}
+
+#icon {
+    max-width: 15%;
+    margin: 0px auto;
+}
+
+footer {
+    padding: 5px 0px; 
+    background-color: var(--footer);
+    background-position-x: 60%;
+    background-position-y: 55%;
+    position: relative;
+}
+
+footer > p {
+    color: white;
+    font-size: 10pt;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+@media screen and (min-width:0px) and (max-width:600px) {
+    main {
+        max-width: 85%;
+    }
+
+    section {
+        max-width: 95%;
+    }
+
+    p {
+        font-size: 4vw;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    #icon_header {
+        max-width: 10%;
+    }
+
+    #apk {
+        max-width: 95%;
+    }
+
+    .print {
+        max-width: 75%;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:800px) {
+    main {
+        max-width: 85%;
+    }
+
+    section {
+        max-width: 95%;
+    }
+
+    p {
+        font-size: 2.5vw;
+    }
+
+    h1 {
+        font-size: 5vw;
+    }
+
+    #icon_header {
+        max-width: 10%;
+    }
+
+}
+
+@media screen and (min-width:801px) and (max-width:889px) {
+    main {
+        max-width: 85%;
+    }
+
+    section {
+        max-width: 88%;
+    }
+
+    p {
+        font-size: 2.5vw;
+    }
+
+    h1 {
+        font-size: 4vw;
+    }
+
+    #icon_header {
+        max-width: 10%;
+    }
+}
