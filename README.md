@@ -1,6 +1,8 @@
 # Evolua-Saude-Page
 Página desenvolvida para disponibilização do arquivo APK do aplicativo "Evolua Saúde"
 
+<img height="200" width="200" src="screenshots/icon.png" target="_blank">
+
 ## Link da página: https://allanbismarck123.github.io/Evolua-Saude-Page/
 
 #### Telas do aplicativo:
