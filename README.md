@@ -3,7 +3,7 @@ Página desenvolvida para disponibilização do arquivo APK do aplicativo "Evolu
 
 <img height="200" width="200" src="screenshots/icon.png" target="_blank">
 
-## Link da página: https://allanbismarck123.github.io/Evolua-Saude-Page/
+## Link da página: https://allan-bismarck.github.io/Evolua-Saude-Page/
 
 #### Telas do aplicativo:
  <img height="480" width="270" src="screenshots/screenshot1.PNG" target="_blank"> <img height="480" width="270" src="screenshots/screenshot2.PNG" target="_blank"> 
