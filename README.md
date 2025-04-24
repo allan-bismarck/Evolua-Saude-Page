@@ -13,3 +13,8 @@ Página desenvolvida para disponibilização do arquivo APK do aplicativo "Evolu
  <img height="480" width="270" src="screenshots/screenshot7.PNG" target="_blank"> <img height="480" width="270" src="screenshots/screenshot8.PNG" target="_blank"> 
  <img height="480" width="270" src="screenshots/screenshot9.PNG" target="_blank"> <img height="480" width="270" src="screenshots/screenshot10.PNG" target="_blank"> 
  <img height="480" width="270" src="screenshots/screenshot11.PNG" target="_blank"> 
+ <img height="480" width="270" src="screenshots/screenshot14.PNG" target="_blank"> <img height="480" width="270" src="screenshots/screenshot15.PNG" target="_blank"> 
+ <img height="480" width="270" src="screenshots/screenshot16.PNG" target="_blank"> <img height="480" width="270" src="screenshots/screenshot17.PNG" target="_blank"> 
+ <img height="480" width="270" src="screenshots/screenshot18.PNG" target="_blank"> <img height="480" width="270" src="screenshots/screenshot19.PNG" target="_blank"> 
+ <img height="480" width="270" src="screenshots/screenshot20.PNG" target="_blank"> <img height="480" width="270" src="screenshots/screenshot21.PNG" target="_blank"> 
+ <img height="480" width="270" src="screenshots/screenshot22.PNG" target="_blank"> 
