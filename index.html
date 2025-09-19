@@ -5,56 +5,170 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Evolua Saúde - Aplicativo de saúde e bem-estar" />
+    <meta name="keywords" content="saúde, aplicativo, android, bem-estar" />
+    <meta name="author" content="Allan Bismarck" />
     <title>Evolua Saúde</title>
     <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
     <header>
-        <div id="text_header">
-            <img id="icon_header" src="assets/icon-app.png" alt="icon">
+        <div id="text_header" class="container">
+            <img id="icon_header" src="assets/icon-app.png" alt="Ícone do Evolua Saúde">
             <h1>EVOLUA SAÚDE</h1>
         </div>
     </header>
 
-    <main>
+    <main class="container">
         <section>
-            <h2>Baixar o aplicativo</h2>
-            <p>Para baixar o aplicativo Evolua Saúde, clique no link abaixo:</p>
-            <a id="download_app"
+            <h2><i class="fas fa-download"></i> Baixar o aplicativo</h2>
+            <p>Para baixar o aplicativo Evolua Saúde, clique no botão abaixo:</p>
+            <a id="download_app" class="btn-download" 
                 href="https://github.com/AllanBismarck123/Evolua-Saude-Page/raw/main/assets/evolua-saude.apk"
-                target="_blank">Baixar aplicativo</a>
+                target="_blank"><i class="fas fa-download"></i> Baixar aplicativo</a>
         </section>
         <section>
-            <h2>Tutorial para instalação</h2>
-            <p><strong>Aviso: </strong>Esse aplicativo funciona apenas em dispositivos com sistema operacional Android.
-            </p>
-            <p>Após baixar o aplicativo, consulte a pasta <strong>"Downloads"</strong> do seu smartphone, o arquivo
-                baixado irá aparecer como na imagem abaixo:</p>
-            <img id="apk" src="assets/apk.jpeg" alt="apk">
-            <p>Clique no arquivo "evolua-saude.apk" para fazer a instalação do aplicativo. Será exibida uma mensagem
-                semelhante à da imagem abaixo, solicitando permissão para instalar aplicativos de fontes desconhecidas,
-                isso ocorre, pois o aplicativo não está na playstore.</p>
-            <img class="print" src="assets/permissao.png" alt="permissao">
-            <p>Basta conceder essa permissão.</p>
-            <img class="print" src="assets/instalacao.png" alt="instalacao_app">
-            <p>Clique no botão <strong>"Instalar"</strong> e a instalação irá ocorrer normalmente. Seguindo esses passos
-                o aplicativo estará pronto para uso.</p>
-            <p>Você reconhecerá o aplicativo no seu smartphone pelo ícone a seguir.</p>
-            <img id="icon" src="assets/icon-app.png" alt="icone">
+            <h2><i class="fas fa-info-circle"></i> Tutorial para instalação</h2>
+            <div class="alert">
+                <i class="fas fa-exclamation-triangle"></i>
+                <p><strong>Aviso: </strong>Esse aplicativo funciona apenas em dispositivos com sistema operacional Android.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                    <p>Após baixar o aplicativo, consulte a pasta <strong>"Downloads"</strong> do seu smartphone, o arquivo
+                        baixado irá aparecer como na imagem abaixo:</p>
+                    <img id="apk" class="screenshot" src="assets/apk.jpeg" alt="APK na pasta de downloads">
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                    <p>Clique no arquivo "evolua-saude.apk" para fazer a instalação do aplicativo. Será exibida uma mensagem
+                        solicitando permissão para instalar aplicativos de fontes desconhecidas,
+                        isso ocorre, pois o aplicativo não está na playstore.</p>
+                    <img class="print screenshot" src="assets/permissao.png" alt="Tela de permissão">
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                    <p>Basta conceder essa permissão.</p>
+                    <img class="print screenshot" src="assets/instalacao.png" alt="Tela de instalação do aplicativo">
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                    <p>Clique no botão <strong>"Instalar"</strong> e a instalação irá ocorrer normalmente. Seguindo esses passos
+                        o aplicativo estará pronto para uso.</p>
+                </div>
+            </div>
+            <div class="app-icon">
+                <p>Você reconhecerá o aplicativo no seu smartphone pelo ícone a seguir:</p>
+                <img id="icon" src="assets/icon-app.png" alt="Ícone do aplicativo Evolua Saúde">
+            </div>
         </section>
         <section>
-            <h2>Demonstração</h2>
-            <video class="print" controls>
-                <source src="assets/demonstracao.mp4" type="video/mp4">
-            </video>
+            <h2><i class="fas fa-play-circle"></i> Demonstração</h2>
+            <div class="video-container">
+                <video class="print" controls>
+                    <source src="assets/demonstracao.mp4" type="video/mp4">
+                    Seu navegador não suporta vídeos HTML5.
+                </video>
+            </div>
+        </section>
+        <section>
+            <h2><i class="fas fa-images"></i> Capturas de Tela</h2>
+            <div class="carousel-container">
+                <div class="carousel-track">
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot1.png" alt="APK na pasta de downloads" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot2.png" alt="Tela de permissão" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot3.png" alt="Tela de instalação do aplicativo" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot4.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot5.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot6.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot7.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot8.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot9.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot10.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>  
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot11.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot12.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot13.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot14.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot15.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="screenshots/screenshot16.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">    
+                        <img src="screenshots/screenshot17.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">    
+                        <img src="screenshots/screenshot18.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">    
+                        <img src="screenshots/screenshot19.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">    
+                        <img src="screenshots/screenshot20.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">    
+                        <img src="screenshots/screenshot21.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                    <div class="carousel-slide">    
+                        <img src="screenshots/screenshot22.png" alt="Ícone do aplicativo Evolua Saúde" class="carousel-image">
+                    </div>
+                </div>
+                <button class="carousel-button prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="carousel-button next"><i class="fas fa-chevron-right"></i></button>
+                <div class="carousel-dots"></div>
+            </div>
         </section>
     </main>
     <footer>
-        <p>&copy; Desenvolvido por <strong>Allan Bismarck</strong>, bacharel em Engenharia da Computação,
-            <strong>UNIVASF</strong>.</p>
+        <div class="container">
+            <p>&copy; 2025 Evolua Saúde | Desenvolvido por <strong>Allan Bismarck</strong>, bacharel em Engenharia da Computação,
+                <strong>UNIVASF</strong>.</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/allan-bismarck" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/allan-bismarck" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
